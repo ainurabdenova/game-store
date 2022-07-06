@@ -1,0 +1,28 @@
+.sign-in-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    color: antiquewhite;
+}
+
+.text-sign-in-link {
+    color: red;
+    font-weight: 600;
+}
+
+.div-div {
+    display: flex;
+    justify-content: center;
+}
+
+.button-signin-login {
+
+    margin: 20px;
+    padding: 10px;
+    background: black;
+    color: red;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+}

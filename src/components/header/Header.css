@@ -1,0 +1,122 @@
+.header_wrapper {
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    background: black;
+}
+
+.header_nav_menu_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: 1px solid red;
+    height: 30px;
+    width: 120px;
+    list-style: none;
+}
+
+.header_nav_menu_item_link {
+    color: antiquewhite;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.header_nav_menu {
+    min-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 0 24px;
+}
+
+.header_nav_menu_item_link {
+    transition: 0.3s ease;
+    font-weight: 700;
+}
+
+.header_nav_menu_item_link:hover {
+    color: red;
+}
+
+.header_menu_hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.header_menu_hamburger_item {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: antiquewhite;
+}
+
+.header_search_wrapper {
+    color: antiquewhite;
+}
+
+@media(max-width:786px) {
+    .header_menu_hamburger {
+        display: block;
+    }
+
+
+
+    .header_menu_hamburger.active .header_menu_hamburger_item:nth-child(2) {
+        opacity: 0;
+    }
+
+    .header_menu_hamburger.active .header_menu_hamburger_item:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .header_menu_hamburger.active .header_menu_hamburger_item:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .header_nav_menu {
+        position: fixed;
+        left: -110%;
+        top: 40px;
+        gap: 0;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .header_nav_menu_item {
+        margin: 16px 0;
+    }
+
+    .header_nav_menu.active {
+        left: 0;
+    }
+}
+
+@media(max-width:600px) {
+    .header_logo_wrapper {
+        display: none;
+    }
+
+    .header_menu_hamburger {
+        margin-left: -20%;
+    }
+
+    .search-box {
+        margin-right: -20%;
+    }
+}

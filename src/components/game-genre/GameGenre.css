@@ -1,0 +1,24 @@
+.game-genre {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+}
+
+.genre {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 3px;
+    background: black;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: 0.3s ease;
+    border-radius: 1px solid red;
+    font-size: 14px;
+}
+
+.genre:hover {
+    color: red;
+
+}

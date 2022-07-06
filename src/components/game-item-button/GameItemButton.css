@@ -1,0 +1,14 @@
+.game-buy {
+    margin-right: 10px;
+}
+
+.game-bay-button {
+    background: black;
+    color: antiquewhite;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.game-bay-button:hover {
+    color: red;
+}

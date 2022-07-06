@@ -1,0 +1,28 @@
+.sign-up-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    color: antiquewhite;
+}
+
+.text-sign-up-link {
+    color: red;
+    font-weight: 600;
+}
+
+.div-ivd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-singout-register {
+    margin: 20px;
+    padding: 10px;
+    background: black;
+    color: red;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+}

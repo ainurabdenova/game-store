@@ -1,0 +1,57 @@
+.basket-main-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.basket_main {
+    max-width: 1000px;
+    min-width: 300px;
+    background: #191a1c;
+    margin-top: 30px;
+}
+
+.title-basket-page {
+    color: antiquewhite;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.basket-page_left {
+    margin-top: 30px;
+}
+
+.title-order-page {
+    display: inline-block;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-in-basket {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: antiquewhite;
+    padding: 12px;
+    font-weight: 600;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.buttons-in-basket:hover {
+    color: red;
+}
+
+
+.basket-top-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.basket-top-content-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
